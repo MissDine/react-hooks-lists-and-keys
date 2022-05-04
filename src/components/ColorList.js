@@ -2,11 +2,11 @@ import React from "react";
 
 function ColorList() {
   const colors = [
-    "firebrick",
-    "rebeccapurple",
-    "salmon",
-    "darkslategray",
-    "hotpink",
+    "Firebrick",
+    "Rebeccapurple",
+    "Salmon",
+    "Darkslategray",
+    "Hotpink",
   ];
 
   return (
@@ -24,3 +24,4 @@ function ColorList() {
 }
 
 export default ColorList;
+
