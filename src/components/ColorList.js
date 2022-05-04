@@ -2,11 +2,11 @@ import React from "react";
 
 function ColorList() {
   const colors = [
-    "firebrick",
-    "rebeccapurple",
-    "salmon",
-    "darkslategray",
-    "hotpink",
+    "Firebrick",
+    "Rebeccapurple",
+    "Salmon",
+    "Darkslategray",
+    "Hotpink",
   ];
 
   return (
@@ -22,5 +22,25 @@ function ColorList() {
     </div>
   );
 }
+// ColorItem component
+function ColorItem(props) {
+  return <li style={{ color: props.color }}>{props.color}</li>;
+}
 
+// ColorList component
+function ColorLlist() {
+  const ccolors = [
+    "firebrick",
+    "rebeccapurple",
+    "salmon",
+    "darkslategray",
+    "hotpink",
+  ];
+
+  const colorElements = ccolors.map((color) => {
+    return <ColorItem key={color} color={color} />;
+  });
+  // etc
+}
 export default ColorList;
+export de
